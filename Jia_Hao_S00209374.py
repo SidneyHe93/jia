@@ -1,7 +1,7 @@
 def menu():
     allStudentsMarks = {}
     while True:
-        kbinput = input ("Enter 1 to store student details\n" +
+        kbinput = input ("Please enter 1 to store student details\n" +
                     "Enter 2 to display student report\n" +
                     "Enter any other key to exit\n")
         if kbinput == '1':
@@ -22,7 +22,7 @@ def StudentsMarks(allStudentsMarks):
 
         while True:
              # Df valid mark range : 0 - 20
-            dfReportMarks = input("Enter student's DF report marks\n")
+            dfReportMarks = input("Please enter student's DF report marks\n")
             dfReportMarks = float(dfReportMarks)
             if dfReportMarks >= 0 and dfReportMarks <= 20:
                 break
